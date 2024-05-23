@@ -1,0 +1,134 @@
+/* wrapper */
+* {
+  box-sizing: border-box;
+}
+
+.wrapper{
+  background-color: rgb(240 249 255);
+}
+
+
+
+
+/* header */
+.header {
+  top: 0;
+  width: 100%;
+  position: sticky;
+  background-color: rgb(254 242 242);
+}
+.header_title {
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+  border-bottom: 1px solid #ccc;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+/* footer */
+.footer {
+  bottom: 0;
+  width: 100%;
+  position: sticky;
+  background-color: rgb(254 242 242);
+}
+
+.footer_author {
+  font-family: "Amatic SC", cursive;
+  font-size: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+/* maim */
+.main{
+  
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* input_area */
+.input_area {
+  background-color: white;
+  border-radius: 30px;
+  width: 70%;
+  margin: 30px auto 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.short_input_area {
+  display: flex;
+}
+
+.text_what,
+.text_who,
+.text_when,
+.text_comment {
+  font-family: "Amatic SC", cursive;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  resize: none;
+  font-size: 20px;
+}
+
+/* button */
+.button_area {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button_area button {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 48%;
+  height: 60px;
+  text-align: center;
+  display: block;
+  font-size: 20px;
+}
+
+.button_area button:hover {
+  color: #fff;
+  background: #000;
+}
+
+/* count */
+.count_area {
+  display: flex;
+  justify-content: center;
+  font-family: "Arial", "メイリオ"; 
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px; 
+}
+
+/* list */
+.list {  
+  background-color: white;
+  width: 70%;
+  margin: 0px auto;
+  border: 1px solid #ccc;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Arial", "メイリオ";
+  font-size: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.list li p {
+  text-align: left;
+}

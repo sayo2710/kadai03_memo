@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>H/C Record</title>
+  <script src="js/jquery-2.1.3.min.js"></script>
+  <link rel="icon" href="./img/memo.jpeg">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/linerdesign.css">
+</head>
+
+<body class="wrapper">
+  <header class="header">
+    <h1 class="header_title">Our Record of Housework & Childcare </h1>
+  </header>
+
+  <main class="main">
+    <div class="input_area">
+      <div class="short_input_area">
+        <textarea class="text_what" placeholder="what"></textarea>
+        <textarea class="text_who" placeholder="who"></textarea>
+        <input type="date" value="" class="text_when"></input>
+      </div>
+      <textarea class="text_comment" placeholder="comment"></textarea>
+    </div>
+
+    <div class="button_area">
+      <button class="save" onclick="window.location.reload();">登録</button>
+      <button class="change" onclick="window.location.reload();">変更</button>
+      <button class="remove" onclick="window.location.reload();">一部削除</button>
+      <button class="clear" onclick="window.location.reload();">全削除</button>
+    </div>
+
+    <div class="count_area">
+      <h1 class=count_area_title>登録件数：</h1>
+      <div class="count">件</div>
+    </div>
+
+    <ul class="list">
+      <!-- ここに追加データが挿入される -->
+    </ul>
+  </main>
+  
+  <canvas id="myPieChart" width="50" height="50"></canvas>
+
+  <footer class="footer">
+    <h1 class="footer_author">© 2024 App of H/C Record ( Author：Sayo.Konno )</h1>
+
+  </footer>
+
+  <scrip src="js/jquery-2.1.3.min.js"></scrip>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
